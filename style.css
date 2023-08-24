@@ -80,7 +80,7 @@ section nav .container-nav .LogoName a{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color: black;
+    color: #0e2d46;
     font-weight: 800;
 }
 section nav .container-nav .LogoName a:hover{
@@ -2012,14 +2012,14 @@ margin-right: 30px;
     height: 376.88px;
     margin-bottom: 180px;
     display: flex;
-    border:1px solid blue;
+    /* border:1px solid blue; */
 }
 
 .Home-2-Element-6 .Div-1{
     width: 455.33px;
     height: 100%;
     position: relative;
-    border:1px solid brown;
+    /* border:1px solid brown; */
 }
 
 .Home-2-Element-6 .Div-1 .PicDiv{
@@ -2099,23 +2099,24 @@ margin-right: 30px;
 
 /* Home-2-Element-7 */
 .Home-2-Element-7{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     height: 697.34px;
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .Home-2-Element-7 section{
     width: 1140px;
     height: 100%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     padding: 10px;
 }
 
-.Home-2-Element-7 section{
+/* .Home-2-Element-7 section{
     border: 1px solid blue;
-}
+} */
 
 .Home-2-Element-7 section .Header{
     width: 100%;
@@ -2139,6 +2140,13 @@ margin-right: 30px;
     margin-bottom: 10px;
 }
 
+.Home-2-Element-7 section #carouselExampleDark .carousel-inner div .img-size{
+    width: 100%;
+    height: 450px;
+    object-position: center center;
+    object-fit: cover;
+}
+
 .Home-2-Element-7 section #carouselExampleDark .carousel-indicators{
     width: 1120px;
     height: 92.56px;
@@ -2155,6 +2163,73 @@ margin-right: 30px;
     margin-right: 10px;
     background-position: center center;
     background-size: cover;
+    opacity: 1;
+    filter: brightness(75%);
 }
 
+.Home-2-Element-7 section #carouselExampleDark .carousel-indicators button:focus,.Home-2-Element-7 section #carouselExampleDark .carousel-indicators .active{
+    filter: brightness(100%);
+}
+
+/* Home-2-Element-8 */
+.Home-2-Element-8{
+    width: 100%;
+    height: 438.11px;
+    display: flex;
+    justify-content: center
+}
+
+.Home-2-Element-8 section{
+    width: 1140px;
+    height: 438.11px;
+    border-top: 1px solid #979797;
+    padding-top: 60px;
+}
+
+.Home-2-Element-8 section .LogoName{
+    width: 100%;
+    height: 55.52px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-2-Element-8 section .LogoName a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: #0e2d46;
+    font-weight: 800;
+}
+
+.Home-2-Element-8 section ul{
+    width: 100%;
+    height: 39.59px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.Home-2-Element-8 section ul li{
+    min-width: 150px;
+    height: 39.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-2-Element-8 section ul li a{
+    text-decoration: none;
+    color: #0F4C5C;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.Home-2-Element-8 section .LFooter{
+    color: rgb(65,68,75);
+    font-size: 16px;
+}
 
