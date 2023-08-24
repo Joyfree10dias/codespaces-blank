@@ -1291,19 +1291,17 @@ margin-right: 30px;
     margin-bottom: 120px;
     display: flex;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .SP-Element-2 section{
     width: 1140px;
     height: 3261.53px;
     display: flex;
-    border: 1px solid blue;
 }
 
-.SP-Element-2 section div{
+/* .SP-Element-2 section div{
     border: 1px solid red;
-}
+} */
 
 .SP-Element-2 section .SP-Box-1{
     width: 759.98px;
@@ -1450,4 +1448,713 @@ margin-right: 30px;
 .SP-Element-2 section .SP-Box-1 .PostComments .Comment{
     width: 100%;
     height: 139.19px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
 }
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Comment .Logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url(./BLOG/Avatar.jpg);
+    object-fit: cover;
+    background-position: center center;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Comment .CommentInfo{
+    width: 634.98px;
+    height: 100%;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Comment .CommentInfo .Header{
+    width: 100%;
+    height: 18.406px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Comment .CommentInfo .Content{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies {
+    width: 100%;
+    height: 752.86px;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies p{
+    margin-bottom: 14.4px;
+    color: rgb(65,68,75);
+    font-size: 16px;
+    width: 100%;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies p label{
+    font-style: italic;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies p input{
+    width: 100%;
+    height: 54.39px;
+    padding: 15px 20px 15px 20px;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies .btn{
+    width: 236.25px;
+    height: 56px;
+    color: white;
+    background-color: #3c6e71;
+    border-radius: 0;
+    border-color: #3c6e71;
+    font-size: 20px;
+}
+
+.SP-Element-2 section .SP-Box-1 .PostComments .Replies .btn:hover{
+    background-color: #133B5C;
+    border-color: #133B5C;
+}
+
+.SP-Element-2 section .SP-Box-2{
+    width: calc(1140px - 759.97px);
+    height: 100%;
+    padding: 30px;
+}
+
+.SP-Element-2 section .SP-Box-2 .Header{
+    width: 100%;
+    height: 26px;
+    margin-bottom: 20px;
+    color: rgb(15,76,92);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.SP-Element-2 section .SP-Box-2 .Box-2-options{
+    width: 100%;
+    height: 123.375px;
+    margin-bottom: 40px;
+}
+
+.SP-Element-2 section .SP-Box-2 .Box-2-options ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.SP-Element-2 section .SP-Box-2 .Box-2-options ul li{
+    margin-bottom: 10px;
+}
+
+.SP-Element-2 section .SP-Box-2 .Box-2-options ul li a{
+    text-decoration: none;
+    color: #0f4c5c;
+    font-size: 15px;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts{
+    width: 100%;
+    height: 82.19px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts a .Pic{
+    width: 105.59px;
+    height: 100%;
+    margin-right: 4px;
+    background-image: url(https://dexico.templatekit.co/wp-content/uploads/sites/26/2020/09/black-and-wood-interior-1536x1024.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts .Body{
+    width: 204px;
+    height: 100%;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts .Body .Title{
+    font-size: 16px;
+    width: 100%;
+    height: 41.59px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts .Body .Title a{
+    color: #133b5c;
+    text-decoration: none;
+}
+
+.SP-Element-2 section .SP-Box-2 .LatestPosts .Body .Date{
+    width: 100%;
+    height: 15.59px;
+    font-size: 12px;
+    color: rgb(65,68,75);
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags{
+    width: 100%;
+    height: 180px;
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags .Tag{
+    width: 100px;
+    height: 27.59px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(65,68,75);
+    border-radius: 1rem;
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags .Tag a{
+    text-decoration: none;
+    color: rgb(65,68,75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags .Tag:hover a{
+    color: #0F4C5C;
+    border-color: #0F4C5C;
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags .Tag:hover{
+    border-color: #0F4C5C;
+}
+
+.SP-Element-2 section .SP-Box-2 .Tags .G-Tag,.SP-Element-2 section .SP-Box-2 .Tags .P-Tag{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Home-2-Element-1  */
+.Home-2-Element-1{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-2-Element-1 section{
+    width: 1140px;
+    height: 470px;
+    padding-top: 150px;
+}
+
+.Home-2-Element-1 section .Header{
+    width: 100%;
+    height: 192px;
+    margin-bottom: 30px;
+    font-size: 86px;
+    color: hsl(192, 72%, 21%);
+    font-weight: 600;
+    line-height: 96px;
+    font-family: "Gothic A1", Sans-serif;
+}
+
+.Home-2-Element-1 section .SubHeader{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 50px;
+    color: rgb(65,68,75);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Home-2-Element-2  */
+.Home-2-Element-2{
+    width: 100%;
+    height: 510.39px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.Home-2-Element-2 section{
+    width: 1140px;
+    height: 510.39px;
+}
+
+.Home-2-Element-2 section .Pic{
+    width: 100%;
+    height: 510.39px;
+    background-image: url(HOME/H2-IMG-1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home-2-Element-2 section .Content{
+    width: 940px;
+    height: 160.39px;
+    display: flex;
+    padding: 40px;
+    margin-top: -160.39px;
+    background-color: white;
+    display: flex;
+}
+
+.Home-2-Element-2 section .Content .Box{
+    height: 80.39px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Home-2-Element-2 section .Content .Box label{
+    color: #41444b;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    height: 24px;
+}
+
+/* .Home-2-Element-2 section .Content .Box input{
+    color: #797a7e;
+    border: 2px solid #a6a7ad;
+    font-style: italic;
+    height: 56.39px;
+    padding: 15px 20px 15px 20px;
+} */
+
+.MainPage section .Content .Search  form .me-2{
+    margin-right: 0!important;
+}
+
+.Home-2-Element-2 section .Content .Box .form-control{
+    color: #797a7e;
+    border: 2px solid #a6a7ad;
+    font-style: italic;
+    height: 56.39px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 0;
+}
+
+.Home-2-Element-2 section .Content .Box input[type=search]:focus{
+    border:2.5px solid #797a7e;
+    box-shadow: none;
+    color: #0f4c5c;
+}
+
+.Home-2-Element-2 section .Content .Box input[type=number]:focus{
+    border:2.5px solid #797a7e;
+    box-shadow: none;
+    color: #0f4c5c;
+}
+
+.Home-2-Element-2 section .Content .Box input[type=number]:focus::-webkit-inner-spin-button {
+    width: 5px;
+    height: 30px;
+}
+
+.Home-2-Element-2 section .Content .Box input[type=number]:hover::-webkit-inner-spin-button {  
+    width: 5px;
+    height: 30px;
+}
+
+.Home-2-Element-2 section .Content .btn{
+    width: 156px;
+    height: 60px;
+    color: white;
+    background-color: #3c6e71;
+    border-radius: 0;
+    border-color: #3c6e71;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Home-2-Element-2 section .Content .btn:hover{
+    border-color: #0f4c5c;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Home-2-Element-3 */
+.Home-2-Element-3{
+    width: 100%;
+    height: 216.78px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Home-2-Element-3 section{
+    width: 1140px;
+    height: 216.78px;
+    padding-left: 189.98px;
+    padding-right: 189.98px;
+}
+
+.Home-2-Element-3 section .Head{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.Home-2-Element-3 section .Head .Header{
+    width: 100%;
+    height: 124.78px;
+    color: rgb(19,59,92);
+    font-family: "Gothic A1", Sans-serif;
+    font-size: 55px;
+    font-weight: 540;
+    line-height: 1.2em;
+}
+
+.Home-2-Element-3 section .Head .SubHeader{
+    width: 100%;
+    height: 72px;
+    color: rgb(65,68,75);
+}
+
+/* Home-2-Element-4 */
+.Home-2-Element-4{
+    width: 100%;
+    height: 522px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.Home-2-Element-4 section{
+    width: 1140px;
+    height: 522px;
+    padding: 10px;
+    /* border: 1px solid palevioletred; */
+    position: relative;
+}
+
+/* .Home-2-Element-4 section div{
+    border: 1px solid red;
+} */
+
+.Home-2-Element-4 section .Pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(HOME/H2-IMG-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.Home-2-Element-4 section .Pic:hover{
+    filter: brightness(50%);
+}
+
+.Home-2-Element-4 section .PauseButton{
+    position: absolute;
+    width: 110px;
+    height: 102px;
+    top: 45%;
+    left: 45%;
+}
+
+.Home-2-Element-4 section .PauseButton .Circle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.Home-2-Element-4 section .PauseButton .Pause{
+    width: 45px;
+    height: 45px;
+    margin-top: -72px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-2-Element-4 section .PauseButton .Pause a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(16,110,113);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-2-Element-4 section .PauseButton .Pause a i{
+    font-size: 90px;
+    transition: 0.2s;
+}
+
+.Home-2-Element-4 section .PauseButton .Pause a:hover i{
+    transform: scale(1.1);
+    color: #797a7e;
+}
+
+/* Home-2-Element-5  */
+.Home-2-Element-5{
+    width: 100%;
+    height: 1502.77px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-2-Element-5 section{
+    width: 1140px;
+    height: 1502.77px;
+    display: flex;
+}
+
+.Home-2-Element-5 section .ApartmentBox{
+    width: 570px;
+    height: 100%;
+    padding: 30px;
+}
+
+.Home-2-Element-5 section .ApartmentBox .Header{
+    width: 100%;
+    min-height: 62.39px;
+    color: #133b5c;
+    font-family: "Gothic A1", Sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.Home-2-Element-5 section .ApartmentBox .Header{
+    width: 100%;
+    height: 48px;
+    color: rgb(65,68,75);
+}
+
+.Home-2-Element-5 section .ApartmentBox .PButton{
+    width: 100%;
+    min-height: 110px;
+}
+
+.Home-2-Element-5 section .ApartmentBox .btn{
+    width: 212.69px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #3C6E71;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.Home-2-Element-5 section .ApartmentBox .btn:hover{
+    transform: scale(0.9);
+    background-color: #0F4C5C;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic{
+    width: 100%;
+    margin-bottom: 80px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic .PFooter{
+    position: absolute;
+    width:390px;
+    min-height: 171.19px;
+    bottom: 0;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic .PFooter .Header{
+    width: 100%;
+    height: 67.19px;
+    margin-bottom: 20px;
+    color: #133b5c;
+    font-family: "Gothic A1", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic .PFooter .PropertyFooter ul{
+    list-style-type: none;
+    display: flex ;
+    padding: 0;
+    margin: 0;
+    color: #797a7e;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic .PFooter .PropertyFooter ul li{
+    margin-right: 30px;
+}
+
+.Home-2-Element-5 section .ApartmentBox .BoxPic .PFooter .PropertyFooter ul li i{
+    color: #133B5C;
+}
+
+/* Home-2-Element-6 */
+.Home-2-Element-6{
+    width: 100%;
+    height: 376.88px;
+    margin-bottom: 180px;
+    display: flex;
+    border:1px solid blue;
+}
+
+.Home-2-Element-6 .Div-1{
+    width: 455.33px;
+    height: 100%;
+    position: relative;
+    border:1px solid brown;
+}
+
+.Home-2-Element-6 .Div-1 .PicDiv{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Home-2-Element-6 .Div-1 .PicDiv .Pic{
+    width: 100%;
+    height: 130%;
+    background-image: url(HOME/H2-IMG-7.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Home-2-Element-6 .Div-1 .Pic-2{
+    position: absolute;
+    width: 355.33px;
+    height: 263.88px;
+    background-image: url(HOME/H2-IMG-8.jpg);
+    background-position: center center;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    margin-right: -100px;
+    margin-bottom: -87px;
+}
+
+.Home-2-Element-6 .Div-2{
+    width: 683px;
+    height: 100%;
+    padding-left: 200px;
+}
+
+.Home-2-Element-6 .Div-2 .Header{
+    color: rgb(19,59,92);
+    font-family: "Gothic A1", Sans-serif;
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.Home-2-Element-6 .Div-2 .SubHeader{
+    width: 100%;
+    height: 96px;
+    font-size: 16.51px;
+    color: rgb(65,68,75);
+}
+
+.Home-2-Element-6 .Div-2 .SubHeader-2{
+    width: 100%;
+    height: 76.78px;
+    font-size: 17px;
+}
+
+.Home-2-Element-6 .Div-2 .PButton{
+    width: 100%;
+    min-height: 80px;
+}
+
+.Home-2-Element-6 .Div-2 .PButton .btn{
+    width: 212.69px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #3C6E71;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.Home-2-Element-6 .Div-2 .PButton .btn:hover{
+    transform: scale(0.9);
+    background-color: #0F4C5C;
+}
+
+/* Home-2-Element-7 */
+.Home-2-Element-7{
+    border: 1px solid blue;
+    width: 100%;
+    height: 697.34px;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-2-Element-7 section{
+    width: 1140px;
+    height: 100%;
+    border: 1px solid pink;
+    padding: 10px;
+}
+
+.Home-2-Element-7 section{
+    border: 1px solid blue;
+}
+
+.Home-2-Element-7 section .Header{
+    width: 100%;
+    height: 124.78px;
+    color: #133b5c;
+    font-family: "Gothic A1", Sans-serif;
+    font-size: 52px;
+    font-weight: 540;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.Home-2-Element-7 section #carouselExampleDark{
+    width: 100%;
+    height: 550px;
+}
+
+.Home-2-Element-7 section #carouselExampleDark .carousel-inner{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.Home-2-Element-7 section #carouselExampleDark .carousel-indicators{
+    width: 1120px;
+    height: 92.56px;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.Home-2-Element-7 section #carouselExampleDark .carousel-indicators button{
+    width: 216px;
+    height: 92.56px;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
