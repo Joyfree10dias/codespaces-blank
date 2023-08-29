@@ -596,6 +596,7 @@ margin-right: 30px;
     min-height: 410.33px;
     display: flex;
 }
+
 .ForthSegmnet section .SSContent .SlideShow{
     width: 50%;
     height: auto;
@@ -2730,7 +2731,6 @@ margin-right: 30px;
     height: 490px;
     padding: 30px;
     position: relative;
-
 }
 
 /* Property-Details-Element-1 */
@@ -3214,4 +3214,219 @@ margin-right: 30px;
     background-color: #0F4C5C;
 }
 
+/* Property-Width-Full-Details-Element-1 */
+.Property-Width-Full-Details-Element-1{
+    width: 100%;
+    height: 1440px;
+    padding-left: 100px;
+    display: flex;
+}
 
+.Property-Width-Full-Details-Element-1 .Sub-1{
+    width: 843.98px;
+    height: 1440px;
+    padding: 20px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1{
+    width: 100%;
+    height: 479px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SlideShow{
+    width: 442.19px;
+    height: auto;
+    padding: 5px;
+}
+
+/* Slide-Show */
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SlideShow .carousel-item img{
+    width: auto;
+    height: 430px;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SlideShow .carousel-indicators{
+    margin-bottom: 0px !important;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SlideShow .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #0f4c5c !important;
+}
+/* End */
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SubBox{
+    width: calc(100% - 442.19px);
+    height: auto;
+    padding: 5px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SubBox .S-Box{
+    width: 100%;
+    height: 108.55px;
+    margin-bottom: 10px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SubBox .S-Box .Pic{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Sub-E-1 .SubBox .S-Box .Pic:hover{
+    transform: scale(.92);
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1{
+    width: 759.98px;
+    height: auto;
+    padding: 30px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .LinkPath{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .LinkPath a{
+    color: #3C6E71;
+    text-decoration: none;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .Header{
+    width: 100%;
+    height: 62.39px;
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(19,59,92);
+    line-height: 62.4px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .Place{
+    width: 100%;
+    height: 78.59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 10px 0 10px;
+    color:#797a7e;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .Price{
+    width: 100%;
+    height: 33.59px;
+    color: rgb(19,59,92);
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .Title{
+    text-decoration: underline;
+    color: rgb(19,59,92);
+    width: 100%;
+    height: 26px;
+    margin-bottom: 26px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .TableContainer{
+    width: 100%;
+    height: 130.59px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .TableContainer .Comp{
+    width: calc(100% / 3);
+    height: 100%;
+    padding: 10px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .TableContainer .Comp .THeader{
+    width: 100%;
+    height: 16.8px;
+    margin-bottom: 10px;
+    color: #797a7e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .TableContainer .Comp .THeader-1{
+    width: 100%;
+    height: 16px;
+    color: rgb(65,68,75);
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .Para{
+    width: 100%;
+    height: 72px;
+    color: rgb(65,68,75);
+    margin-bottom: 25px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .P-D-Footer{
+    width: 100%;
+    height: 24px;
+    display: flex;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .P-D-Footer .Elem{
+    width:145.75px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(65,68,75);
+    font-weight: 500;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .P-D-Footer .Elem i{
+    font-size: 21px; 
+    color: #3C6E71;
+    margin-right: 10px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .ViewButton{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .ViewButton .btn{
+    width: 149.01px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #3C6E71;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.Property-Width-Full-Details-Element-1 .Sub-1 .Box-1 .btn:hover{
+    transform: scale(0.9);
+    background-color: #0F4C5C;
+}
+
+.Property-Width-Full-Details-Element-1 .Box-2{
+    width: calc(100% - 843.98px);
+    height: 490px;
+    padding: 30px;
+    padding-top: 10px;
+    position: relative;
+}
