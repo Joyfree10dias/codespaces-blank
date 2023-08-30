@@ -3624,5 +3624,228 @@ margin-right: 30px;
     font-weight: 500;
 }
 
+/* Property-1  */
+.Property-1{
+    width: 100%;
+    height: 400.55px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.Property-1 section{
+    width: 1120px;
+    height: 400.55px;
+}
+
+.Property-1 section .SearchInfo{
+    position: relative;
+    width: 100%;
+    height: 400.55px;
+    padding: 40px;
+    margin-bottom: 40px;
+    color: rgb(19,59,92);
+    box-shadow: 0px 0px 15px 0px rgba(60.00000000000002, 110.00000000000006, 113.00000000000006, 0.23);
+}
+
+.Property-1 section .SearchInfo .P-Element-1{
+    width: 100%;
+    height: 24.766px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.Property-1 section .SearchInfo .P-Element-1 li{
+    width: 265.98px;
+    height: 24.766px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Property-1 section .SearchInfo .P-Element-2{
+    width: 100%;
+    height: 80.38px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.Property-1 section .SearchInfo .Box{
+    height: 80.38px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Property-1 section .SearchInfo .Box label{
+    color: #41444b;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    height: 24px;
+}
+
+.Property-1 section .SearchInfo .P-Element-2 .Box .form-control{
+    color: #797a7e;
+    border: 2px solid #a6a7ad;
+    font-style: italic;
+    height: 56.39px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 0;
+}
+
+.Property-1 section .SearchInfo .P-Element-2 .Box input[type=search]:focus{
+    border:2.5px solid #797a7e;
+    box-shadow: none;
+    color: #0f4c5c;
+}
+
+.Property-1 section .SearchInfo .P-Element-2 .Box input[type=number]:focus{
+    border:2.5px solid #797a7e;
+    box-shadow: none;
+    color: #0f4c5c;
+}
+
+.Property-1 section .SearchInfo .P-Element-2 .Box input[type=number]:focus::-webkit-inner-spin-button {
+    width: 5px;
+    height: 30px;
+}
+
+.Property-1 section .SearchInfo .P-Element-2 .Box input[type=number]:hover::-webkit-inner-spin-button {  
+    width: 5px;
+    height: 30px;
+}
+
+.Property-1 section .SearchInfo .btn{
+    width: 152.86px;
+    height: 60px;
+    color: white;
+    background-color: #3c6e71;
+    border-radius: 0;
+    border-color: #3c6e71;
+    font-size: 20px;
+    margin-left: 20px;
+    float: right;
+    /* margin-top: 20px; */
+}
+
+.Property-1 section .SearchInfo .btn:hover{
+    border-color: #0f4c5c;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Property-2  */
+.Property-2{
+    width: 100%;
+    height:calc(859.55px - 112.39px);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.Property-2 section{
+    width: 80%;
+    height:calc(859.55px - 112.39px) ;
+}
+
+.Property-2 section .PropertyHeader{
+    width: auto;
+    min-height: 112.39px;
+    padding: 20px 0 30px 0;
+    color: #133b5c;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.Property-2 section .Properties{
+    width: auto;
+    height: 747.16px;
+    display: flex;
+}
+
+.Property-2 section .Properties .Property{
+    width: 363.6px;
+    height: 747.16px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.Property-2 section .Properties .Property .PropertyContainer{
+    width: auto;
+    height: 559.969px;
+    padding-bottom: 20px;
+    /* background: transparent; */
+}
+
+.Property-2 section .Properties .Property .PropertyContainer .PropertyImage{
+    background-position: center center;
+    background-size: cover;
+    height: 539.969px;
+    transition: 0.8s;
+}
+
+.Property-2 section .Properties .Property .Price{
+    position:absolute;
+    width: 78.55px;
+    height: 45.59px;
+    background-color: #3c6e71;
+    z-index: 2;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Property-2 section .Properties .Property .AddressLinks{
+    position: absolute;
+    width: 340.94px;
+    height: 30px;
+    bottom: 90px;   
+}
+
+.Property-2 section .Properties .Property .AddressLinks a{
+    text-decoration: none;
+    color: #797a7e;
+    font-size: 16px;
+    display: flex;
+}
+
+.Property-2 section .Properties .Property .PropertyName{
+    position: absolute;
+    text-decoration: none;
+    color: #133b5c;
+    bottom: 45px;
+}
+
+.Property-2 section .Properties .Property .PropertyFooter{
+    position: absolute;
+    width: 340.94px;
+    height: 20px;
+    bottom: 25px;
+}
+
+.Property-2 section .Properties .Property .PropertyFooter ul{
+    list-style-type: none;
+    display: flex ;
+    padding: 0;
+    margin: 0;
+    color: #797a7e;
+}
+
+.Property-2 section .Properties .Property .PropertyFooter ul li{
+margin-right: 30px;
+}
+
+.Property-2 section .Properties .Property .PropertyFooter ul li i{
+    color: #133B5C;
+}
 
 
