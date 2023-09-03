@@ -31,14 +31,14 @@
               </div>
               <div class="NavLinks" style="width: 85%;min-height: 100%;">
                 <ul>
-                  <li>home<i class='bx bx-plus'></i>
+                  <li><a href="../index.html" style="color: #3c6e71; text-decoration: none;">home<i class='bx bx-plus'></i></a>
                     <div class="dropdown-content">
                       <a href="../HOME/Home-2.html">Home 2</a>
                       <a href="../HOME/Home-3.html">Home 3</a>
                       <a href="#">Home 4</a>
                     </div>
                   </li>
-                  <li>property<i class='bx bx-plus'></i>
+                  <li><a href="../PROPERTY/Property.html" style="color: #3c6e71; text-decoration: none;">property<i class='bx bx-plus'></i></a>
                     <div class="dropdown-content">
                       <a href="../PROPERTY/Property-List.html">Property List</a>
                       <a href="../PROPERTY/Property-Details.html">Property Details</a>
@@ -47,12 +47,12 @@
                       <a href="../PROPERTY/Agent-Details.html">Agents Details</a>
                     </div>
                   </li>
-                  <li>about<i class='bx bx-plus'></i>
+                  <li><a href="../ABOUT/About.html" style="color: #3c6e71; text-decoration: none;">about<i class='bx bx-plus'></i></a>
                     <div class="dropdown-content">
                       <a href="../ABOUT/404.html">404</a>
                     </div>
                   </li>
-                  <li>blog<i class='bx bx-plus'></i>
+                  <li><a href="../BLOG/Blog.html" style="color: #3c6e71; text-decoration: none;">blog<i class='bx bx-plus'></i></a>
                     <div class="dropdown-content">
                       <a href="../BLOG/SinglePost.html">Single Post</a>
                       </div>
@@ -102,7 +102,7 @@
     <!-- Home-2-Element-2 -->
     <div class="Home-2-Element-2">
         <section>
-            <div class="Pic"></div>
+            <div class="Cont" style="width: 100%;height: 510.39px;overflow: hidden;"><div class="Pic"></div></div>
             <div class="Content">
                 <div class="Box" style="width: 352px;">
                   <label for="This1">Location to Search</label>
@@ -133,7 +133,7 @@
 
     <!-- Home-2-Element-4 -->
     <div class="Home-2-Element-4">
-      <section>
+      <section style="overflow: hidden;">
         <div class="Pic"></div>
         <div class="PauseButton">
           <div class="Circle"></div>
@@ -298,6 +298,44 @@
 //   }, function(){
 //     console.log("Confirm");
 // });   
+
+// Translate
+Trans = document.querySelector('.Home-2-Element-2');
+Trans1 = document.querySelector('.Home-2-Element-4');
+Trans2 = document.querySelector('.Home-2-Element-6');
+window.onscroll = () => {
+  // console.log(Trans);
+  let top = window.scrollY;
+  let offset = Trans.offsetTop - 550;
+  // console.log(
+  //   'top:', top,
+  //   'offset:', offset
+  // );
+  if(top>=offset){
+    console.log(Trans.childNodes[1].childNodes[1].childNodes[0].style.transform="translateY("+(-top/100)+"em)");
+  }
+
+  console.log(Trans1);
+  offset = Trans1.offsetTop - 550;
+  console.log(
+    'top:', top,
+    'offset:', offset
+  );
+  if(top>=offset){
+    console.log(Trans1.childNodes[1].childNodes[1].style.transform="scale("+(top/939)+")");
+  }
+
+  console.log(Trans2);
+  offset = Trans2.offsetTop -550;
+  console.log(
+    'top:', top,
+    'offset:', offset
+  );
+  if(top>=offset){
+    console.log(Trans2.childNodes[1].childNodes[1].childNodes[1].style.transform="translateY("+((-top/3204)*12)+"em)");
+    console.log(Trans2.childNodes[1].childNodes[3].style.transform="scale("+(top/3204)+")");
+  }
+}
 </script>
 </body>
 </html>

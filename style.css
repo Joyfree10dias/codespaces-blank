@@ -1776,12 +1776,14 @@ margin-right: 30px;
 }
 
 .Home-2-Element-2 section .Pic{
+    position: relative;
     width: 100%;
-    height: 510.39px;
+    height: 120%;
     background-image: url(HOME/H2-IMG-1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
 
 .Home-2-Element-2 section .Content{
@@ -1791,7 +1793,6 @@ margin-right: 30px;
     padding: 40px;
     margin-top: -160.39px;
     background-color: white;
-    display: flex;
 }
 
 .Home-2-Element-2 section .Content .Box{
@@ -1818,9 +1819,9 @@ margin-right: 30px;
     padding: 15px 20px 15px 20px;
 } */
 
-.MainPage section .Content .Search  form .me-2{
+/* .MainPage section .Content .Search  form .me-2{
     margin-right: 0!important;
-}
+} */
 
 .Home-2-Element-2 section .Content .Box .form-control{
     color: #797a7e;
@@ -2119,7 +2120,7 @@ margin-right: 30px;
 
 .Home-2-Element-6 .Div-1 .PicDiv .Pic{
     width: 100%;
-    height: 130%;
+    height: 160%;
     background-image: url(HOME/H2-IMG-7.jpg);
     background-position: center center;
     background-size: cover;
@@ -3134,6 +3135,7 @@ margin-right: 30px;
     background-image: url(PROPERTY/A-1.jpg);
     background-position: center center;
     background-size: cover;
+    transition: .7s;
 }
 
 .Agent-Element-1 section .Text{
@@ -3934,5 +3936,628 @@ margin-right: 30px;
 .Property-2 section .Properties .Property .PropertyFooter ul li i{
     color: #133B5C;
 }
+
+/* Blog */
+.SP-Element-2 section .SP-Box-1 .Cards{
+    width: 100%;
+    height: 377.97px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.SP-Element-2 section .SP-Box-1 .Cards .Pic{
+    width: 279.98px;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(75%);
+    transition: 1s;
+}
+
+.SP-Element-2 section .SP-Box-1 .Cards:hover .Pic{
+    filter: brightness(100%);
+}
+
+
+.SP-Element-2 section .SP-Box-1 .Cards .PicContent{
+    width: calc(100% - 279.98px - 25px);
+    height: 100%;
+    margin-left: 25px;
+}
+
+.SP-Element-2 section .SP-Box-1 .Cards .PicContent a .Header{
+    width: 100%;
+    height: 67.19px;
+    color: rgb(19,59,92);
+    font-size: 28px;
+    line-height: 33.6px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.SP-Element-2 section .SP-Box-1 .Cards .PicContent .Date{
+    width: 100%;
+    height: 15.50px;
+    margin-bottom: 20px;
+    color: #797a7e;
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 400;
+}
+
+.SP-Element-2 section .SP-Box-1 .Cards .PicContent .Text{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    color: #41444b;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.SP-Element-2 section .SP-Box-1 .AFoot{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SP-Element-2 section .SP-Box-1 .AFoot a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #3C6E71;
+}
+
+/* About-Element-1 */
+.About-Element-1{
+    width: 100%;
+    height: 424.5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.About-Element-1 section{
+    width: 1140px;
+    height: 100%;
+    display: flex;
+}
+
+.About-Element-1 section .AboutBox{
+    width: calc(100% / 3);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.About-Element-1 section .AboutBox .Container{
+    width: 100%;
+    height: auto;
+}
+
+.About-Element-1 section .AboutBox .Container .Header{
+    width: 100%;
+    height:100.78px;
+    color: rgb(19,59,92);
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 500;
+    transform: translateY(-50%);
+    transition: 1s;
+}
+
+.About-Element-1 section .AboutBox .Container .Header.active,
+.About-Element-1 section .AboutBox .Container .Text.active,
+.About-Element-1 section .AboutBox .Container .MiniContainers.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.About-Element-1 section .AboutBox .Container .Text{
+    width: 100%;
+    height: 72px;
+    color: rgb(65,68,75);
+    transform: translateY(50%);
+    transition: 1s;
+}
+
+.About-Element-1 section .AboutBox .Container .MiniContainers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: 1s;
+    opacity: 0;
+}
+
+.About-Element-1 section .AboutBox .Container .MiniContainers .Icon{
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.About-Element-1 section .AboutBox .Container .MiniContainers .IconHeading{
+    width: calc(100% - 10px - 46px);
+    height: auto;
+    color: rgb(19,59,92);
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.About-Element-1 section .AboutBox .FirstPart{
+    width: 84.98px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.About-Element-1 section .AboutBox .FirstPart .Cont{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.About-Element-1 section .AboutBox .FirstPart .Cont .PBox{
+    width: 100%;
+    height: 74.98px;
+    margin-bottom: 10px;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.About-Element-1 section .AboutBox .FirstPart .Cont .PBox.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.About-Element-1 section .AboutBox .FirstPart .Cont .PBox .Pic{
+    width: 100%;
+    height:100%;
+    background-position: center center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.About-Element-1 section .AboutBox .FirstPart .Cont .PBox:hover .Pic{
+    transform: scale(.90);
+}
+
+.About-Element-1 section .AboutBox .SecondPart{
+    width:calc(100% - 84.98px);
+    height:100%;
+    padding: 5px;
+}
+
+/* .About-Element-2 */
+.About-Element-2{
+    width: 100%;
+    height: 273.2px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.About-Element-2 a{
+    text-decoration: none;
+}
+
+.About-Element-2 a .Pack{
+    width: 253.19px;
+    height: 100%;
+    overflow: hidden;
+    scale: 0;
+    transition: 1s;
+}
+
+.About-Element-2 a .Pack.active{
+    scale: 1;
+}
+
+.About-Element-2 a .Pack .Pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.About-Element-2 a .Pack .Pic .Hue{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.About-Element-2 a .Pack:hover .Pic .Hue{
+    opacity: .5;
+    background-color: #3C6E71;
+}
+
+.About-Element-2 a .Pack:hover .Pic{
+    transform:scale(1.1);
+}
+
+.About-Element-2 a .Pack .Pic .Text{
+    position: relative;
+    color: white;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: -55%;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.About-Element-2 a .Pack:hover .Pic .Text{
+    opacity: 1;
+}
+
+/* About-Element-3 */
+.About-Element-3{
+    width: 100%;
+    height: 808.78px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.About-Element-3 section{
+    width: 1140px;
+    height: 100%;
+    padding: 10px;
+}
+
+.About-Element-3 section .Header{
+    width: 100%;
+    height: 124.78px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(19,59,92);
+    font-size: 52px;
+    line-height: 62.4px;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 1s;
+}
+
+.About-Element-3 section .Header.active,
+.About-Element-3 section .Text.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.About-Element-3 section .Text{
+    width: 100%;
+    height: 72px;
+    margin-bottom: 40px;
+    color: rgb(65,68,75);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 2.5s;
+}
+
+.About-Element-3 section .sec{
+    width: 100%;
+    height: 502px;
+    position: relative;
+}
+
+.About-Element-3 section .sec.active{
+    animation: SPAN 2s ease;
+}
+
+@keyframes SPAN {
+    0%{
+        transform:scale(0) ;
+    }
+    90%{
+        transform:scale(1.1) ;
+    }
+
+    100%{
+        transform:scale(1) ;
+    }
+}
+/* .Home-2-Element-4 section div{
+    border: 1px solid red;
+} */
+
+.About-Element-3 section .sec .Pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(ABOUT/Table.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.About-Element-3 section .sec .PauseButton{
+    position: absolute;
+    width: 110px;
+    height: 102px;
+    top: 45%;
+    left: 45%;
+}
+
+.About-Element-3 section .sec .PauseButton .Circle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.About-Element-3 section .sec .PauseButton .Circle:hover{
+    opacity: 0.7;
+}
+
+.About-Element-3 section .sec .PauseButton .Pause{
+    width: 45px;
+    height: 45px;
+    margin-top: -72px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Element-3 section .sec .PauseButton .Pause a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(16,110,113);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Element-3 section .sec .PauseButton .Pause a i{
+    font-size: 90px;
+    transition: 0.2s;
+}
+
+.About-Element-3 section .sec .PauseButton .Pause a:hover i{
+    transform: scale(1.1);
+    color: #797a7e;
+}
+
+.About-Element-4{
+    width: 100%;
+    height: 515.56px;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.About-Element-4 .Box-1{
+    width: 341.5px;
+    height: 100%;
+    margin-left: 341.5px;
+    padding: 10px;
+}
+
+.About-Element-4 .Box-1 .Heading{
+    width: 100%;
+    height: 249.56px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:rgb(19,59,92);
+    font-size: 52px;
+    line-height: 62.5px;
+    font-weight: 500;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.About-Element-4 .Box-1 .Heading.active,
+.About-Element-4 .Box-1 .Text.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.About-Element-4 .Box-1 .Text{
+    width: 100%;
+    height: 96px;
+    margin-bottom: 40px;
+    color: rgb(65,68,75);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.About-Element-4 .Box-1 .ViewButton{
+    width: 212.69px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Element-4 .Box-1 .ViewButton .btn{
+    width: 212.69px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #3C6E71;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.About-Element-4 .Box-1 .btn:hover{
+    transform: scale(0.9);
+    background-color: #0F4C5C;
+}
+
+.About-Element-4 .Box-2{
+    width: calc(100% - 341.5px - 341.5px);
+    height: 100%;
+    padding: 10px;
+}
+
+.About-Element-4 .Box-2 #carouselExampleIndicators .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.About-Element-4 .Box-2 #carouselExampleIndicators .carousel-inner .carousel-item img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.About-Element-4 .Box-2 #carouselExampleIndicators .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #0f4c5c !important;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.About-Element-5{
+    width: 100%;
+    height:calc(611.3px) ;
+    margin-bottom: 120px;
+}
+
+.About-Element-5 section{
+    width: 1140px;
+    height: 100%;
+}
+
+.About-Element-5 section .Header{
+    width: 100%;
+    height: 62.39px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(19,59,92);
+    font-size: 52px;
+    line-height: 62.4px;
+    font-weight: 500;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.About-Element-5 section .Header.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.About-Element-5 section .Container{
+    width: 100%;
+    height: 365.56px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.About-Element-5 section .Container .Cards{
+    width: calc(100% / 4);
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.About-Element-5 section .Container .Cards .Name{
+    scale: 0;
+    transition: 1s;
+}
+
+.About-Element-5 section .Container .Cards .Phno{
+    scale: 0;
+    transition: 1s;
+}
+
+.About-Element-5 section .Container .Cards a .Pic:hover{
+    transform: translateY(2%);
+    filter: brightness(100%) contrast(100%) saturate(145%);
+}
+
+.About-Element-5 section .Container .Cards a .Pic{
+    width: 100%;
+    height: 278.56px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    filter: brightness(90%);
+    scale: 0;
+    transition: 1s;
+}
+
+.About-Element-5 section .Container .Cards a .Pic.active,
+.About-Element-5 section .Container .Cards .Name.active,
+.About-Element-5 section .Container .Cards .Phno.active,
+.About-Element-5 section .Container .Cards a .Pic .Plus.active{
+    scale: 1;
+}
+
+.About-Element-5 section .Container .Cards a .Pic .Plus{
+    width: 40px;
+    height: 39px;
+    font-size: 30px;
+    background-color: #3c6e71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    scale: 0;
+}
+
+.About-Element-5 section .Container .Cards a .Pic .Plus:hover{
+    background-color: #133B5C;
+}
+
+.About-Element-5 section .Container .Cards a .Pic .Plus i:hover{
+    overflow: hidden;
+    animation: PlusSize .8s ease-in-out infinite;
+}
+
+@keyframes PlusSize{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+} 
+
+.About-Element-5 section .ViewButton{
+    width: 169.4px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Element-5 section .ViewButton .btn{
+    width: 169.4px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #3C6E71;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.About-Element-5 section .btn:hover{
+    transform: scale(0.9);
+    background-color: #0F4C5C;
+}
+
+
 
 
